@@ -3,7 +3,6 @@ kind: Event
 metadata:
   name: dan-example-event-{{.Replica}}
   namespace: default
-#  generateName: dan.example.event-
 involvedObject:
   kind: "Pod"
   name: "kube-burner" # Must refer to an existing object
