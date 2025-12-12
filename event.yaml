@@ -5,6 +5,6 @@ metadata:
 involvedObject:
   kind: "CustomResourceDefinition"
   name: "testresources.example.com" # Must refer to an existing object
-message: "Dan Test Event for kube-burner runs"
+message: "Test Event for kube-burner runs"
 reason: "TestEvent"
 type: "Normal"
