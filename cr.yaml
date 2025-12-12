@@ -1,7 +1,7 @@
 apiVersion: "example.com/v1"
 kind: TestResource
 metadata:
-  name: huge-data-test-object
+  name: huge-data-test-object-{{.Replica}}
 spec:
   message: "This resource has around 300 lines of data padding."
   replicas: 1
