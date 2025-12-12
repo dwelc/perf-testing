@@ -3,8 +3,8 @@ kind: Event
 metadata:
   name: dan-example-event-{{.Replica}}
 involvedObject:
-  kind: "Pod"
-  name: "kube-burner" # Must refer to an existing object
+  kind: "CustomResourceDefinition"
+  name: "testresources.example.com" # Must refer to an existing object
 message: "Dan Test Event for kube-burner runs"
 reason: "TestEvent"
 type: "Normal"
