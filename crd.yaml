@@ -3,7 +3,6 @@ kind: CustomResourceDefinition
 metadata:
   name: testresources.example.com
 spec:
-  # group name to use for REST API: /apis/<group>/<version>
   group: example.com
   names:
     plural: testresources
