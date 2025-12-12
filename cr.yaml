@@ -3,7 +3,7 @@ kind: TestResource
 metadata:
   name: huge-data-test-object-{{.Replica}}
 spec:
-  message: "Custom Resource with data padding for kube-burner runs"
+  message: "Custom Resource with padding data for kube-burner runs"
   replicas: 1
   paddingData:
     - key: "data-001"
