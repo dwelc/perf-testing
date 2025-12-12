@@ -30,3 +30,12 @@ spec:
                   description: The number of desired replicas.
                   minimum: 1
                   maximum: 10
+                paddingData:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      key:
+                        type: string
+                      value:
+                        type: string
