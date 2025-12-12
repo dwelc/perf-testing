@@ -5,6 +5,7 @@ metadata:
 involvedObject:
   kind: "CustomResource"
   name: "huge-data-test-object-1" # Must refer to an existing object
+  namespace: {{.JobName}}-{{.Replica}}
 message: "Test Event for kube-burner runs"
 reason: "TestEvent"
 type: "Normal"
