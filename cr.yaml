@@ -3,7 +3,7 @@ kind: TestResource
 metadata:
   name: huge-data-test-object-{{.Replica}}
 spec:
-  message: "This resource has around 300 lines of data padding."
+  message: "Data padded Custom Resource for kube-burner runs"
   replicas: 1
   # Data padding section starts here (~290 lines)
   paddingData:
