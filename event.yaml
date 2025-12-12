@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Event
 metadata:
-  name: dan.example.event
+  name: dan-example-event-{{.Replica}}
   namespace: default
 #  generateName: dan.example.event-
 involvedObject:
