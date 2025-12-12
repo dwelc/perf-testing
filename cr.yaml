@@ -3,9 +3,8 @@ kind: TestResource
 metadata:
   name: huge-data-test-object-{{.Replica}}
 spec:
-  message: "Data padded Custom Resource for kube-burner runs"
+  message: "Custom Resource with data padding for kube-burner runs"
   replicas: 1
-  # Data padding section starts here (~290 lines)
   paddingData:
     - key: "data-001"
       value: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
