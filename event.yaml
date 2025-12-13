@@ -4,7 +4,7 @@ metadata:
   name: dan-example-event-{{.Replica}}
   namespace: {{.JobName}}-{{.Iteration}}
 involvedObject:
-  kind: "CustomResource"
+  kind: "TestResource"
   name: "huge-data-test-object-{{.Replica}}" # Must refer to an existing object
   namespace: {{.JobName}}-{{.Iteration}}
 message: "Test Event for kube-burner runs"
