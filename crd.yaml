@@ -51,7 +51,7 @@ spec:
     singular: testresource2
     kind: TestResource2
     shortNames:
-    - tr
+    - tr2
   scope: Namespaced
   versions:
     - name: v1
