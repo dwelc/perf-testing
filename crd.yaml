@@ -81,3 +81,591 @@ spec:
                         type: string
                       value:
                         type: string
+---
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
+metadata:
+  name: testresources3.example.com
+spec:
+  group: example.com
+  names:
+    plural: testresources3
+    singular: testresource3
+    kind: TestResource3
+    shortNames:
+    - tr3
+  scope: Namespaced
+  versions:
+    - name: v1
+      served: true
+      storage: true
+      schema:
+        openAPIV3Schema:
+          type: object
+          properties:
+            spec:
+              type: object
+              properties:
+                message:
+                  type: string
+                  description: A message for testing purposes.
+                replicas:
+                  type: integer
+                  description: The number of desired replicas.
+                  minimum: 1
+                  maximum: 10
+                paddingData:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      key:
+                        type: string
+                      value:
+                        type: string
+---
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
+metadata:
+  name: testresources3.example.com
+spec:
+  group: example.com
+  names:
+    plural: testresources3
+    singular: testresource3
+    kind: TestResource3
+    shortNames:
+    - tr3
+  scope: Namespaced
+  versions:
+    - name: v1
+      served: true
+      storage: true
+      schema:
+        openAPIV3Schema:
+          type: object
+          properties:
+            spec:
+              type: object
+              properties:
+                message:
+                  type: string
+                  description: A message for testing purposes.
+                replicas:
+                  type: integer
+                  description: The number of desired replicas.
+                  minimum: 1
+                  maximum: 10
+                paddingData:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      key:
+                        type: string
+                      value:
+                        type: string
+---
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
+metadata:
+  name: testresources4.example.com
+spec:
+  group: example.com
+  names:
+    plural: testresources4
+    singular: testresource4
+    kind: TestResource2
+    shortNames:
+    - tr4
+  scope: Namespaced
+  versions:
+    - name: v1
+      served: true
+      storage: true
+      schema:
+        openAPIV3Schema:
+          type: object
+          properties:
+            spec:
+              type: object
+              properties:
+                message:
+                  type: string
+                  description: A message for testing purposes.
+                replicas:
+                  type: integer
+                  description: The number of desired replicas.
+                  minimum: 1
+                  maximum: 10
+                paddingData:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      key:
+                        type: string
+                      value:
+                        type: string
+---
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
+metadata:
+  name: testresources5.example.com
+spec:
+  group: example.com
+  names:
+    plural: testresources5
+    singular: testresource5
+    kind: TestResource5
+    shortNames:
+    - tr5
+  scope: Namespaced
+  versions:
+    - name: v1
+      served: true
+      storage: true
+      schema:
+        openAPIV3Schema:
+          type: object
+          properties:
+            spec:
+              type: object
+              properties:
+                message:
+                  type: string
+                  description: A message for testing purposes.
+                replicas:
+                  type: integer
+                  description: The number of desired replicas.
+                  minimum: 1
+                  maximum: 10
+                paddingData:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      key:
+                        type: string
+                      value:
+                        type: string
+---
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
+metadata:
+  name: testresources6.example.com
+spec:
+  group: example.com
+  names:
+    plural: testresources6
+    singular: testresource6
+    kind: TestResource6
+    shortNames:
+    - tr6
+  scope: Namespaced
+  versions:
+    - name: v1
+      served: true
+      storage: true
+      schema:
+        openAPIV3Schema:
+          type: object
+          properties:
+            spec:
+              type: object
+              properties:
+                message:
+                  type: string
+                  description: A message for testing purposes.
+                replicas:
+                  type: integer
+                  description: The number of desired replicas.
+                  minimum: 1
+                  maximum: 10
+                paddingData:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      key:
+                        type: string
+                      value:
+                        type: string
+---
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
+metadata:
+  name: testresources7.example.com
+spec:
+  group: example.com
+  names:
+    plural: testresources7
+    singular: testresource7
+    kind: TestResource7
+    shortNames:
+    - tr7
+  scope: Namespaced
+  versions:
+    - name: v1
+      served: true
+      storage: true
+      schema:
+        openAPIV3Schema:
+          type: object
+          properties:
+            spec:
+              type: object
+              properties:
+                message:
+                  type: string
+                  description: A message for testing purposes.
+                replicas:
+                  type: integer
+                  description: The number of desired replicas.
+                  minimum: 1
+                  maximum: 10
+                paddingData:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      key:
+                        type: string
+                      value:
+                        type: string
+---
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
+metadata:
+  name: testresources8.example.com
+spec:
+  group: example.com
+  names:
+    plural: testresources8
+    singular: testresource8
+    kind: TestResource8
+    shortNames:
+    - tr8
+  scope: Namespaced
+  versions:
+    - name: v1
+      served: true
+      storage: true
+      schema:
+        openAPIV3Schema:
+          type: object
+          properties:
+            spec:
+              type: object
+              properties:
+                message:
+                  type: string
+                  description: A message for testing purposes.
+                replicas:
+                  type: integer
+                  description: The number of desired replicas.
+                  minimum: 1
+                  maximum: 10
+                paddingData:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      key:
+                        type: string
+                      value:
+                        type: string
+---
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
+metadata:
+  name: testresources9.example.com
+spec:
+  group: example.com
+  names:
+    plural: testresources9
+    singular: testresource9
+    kind: TestResource9
+    shortNames:
+    - tr9
+  scope: Namespaced
+  versions:
+    - name: v1
+      served: true
+      storage: true
+      schema:
+        openAPIV3Schema:
+          type: object
+          properties:
+            spec:
+              type: object
+              properties:
+                message:
+                  type: string
+                  description: A message for testing purposes.
+                replicas:
+                  type: integer
+                  description: The number of desired replicas.
+                  minimum: 1
+                  maximum: 10
+                paddingData:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      key:
+                        type: string
+                      value:
+                        type: string
+---
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
+metadata:
+  name: testresources10.example.com
+spec:
+  group: example.com
+  names:
+    plural: testresources10
+    singular: testresource10
+    kind: TestResource10
+    shortNames:
+    - tr10
+  scope: Namespaced
+  versions:
+    - name: v1
+      served: true
+      storage: true
+      schema:
+        openAPIV3Schema:
+          type: object
+          properties:
+            spec:
+              type: object
+              properties:
+                message:
+                  type: string
+                  description: A message for testing purposes.
+                replicas:
+                  type: integer
+                  description: The number of desired replicas.
+                  minimum: 1
+                  maximum: 10
+                paddingData:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      key:
+                        type: string
+                      value:
+                        type: string
+---
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
+metadata:
+  name: testresources11.example.com
+spec:
+  group: example.com
+  names:
+    plural: testresources11
+    singular: testresource11
+    kind: TestResource11
+    shortNames:
+    - tr11
+  scope: Namespaced
+  versions:
+    - name: v1
+      served: true
+      storage: true
+      schema:
+        openAPIV3Schema:
+          type: object
+          properties:
+            spec:
+              type: object
+              properties:
+                message:
+                  type: string
+                  description: A message for testing purposes.
+                replicas:
+                  type: integer
+                  description: The number of desired replicas.
+                  minimum: 1
+                  maximum: 10
+                paddingData:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      key:
+                        type: string
+                      value:
+                        type: string
+---
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
+metadata:
+  name: testresources12.example.com
+spec:
+  group: example.com
+  names:
+    plural: testresources12
+    singular: testresource12
+    kind: TestResource12
+    shortNames:
+    - tr12
+  scope: Namespaced
+  versions:
+    - name: v1
+      served: true
+      storage: true
+      schema:
+        openAPIV3Schema:
+          type: object
+          properties:
+            spec:
+              type: object
+              properties:
+                message:
+                  type: string
+                  description: A message for testing purposes.
+                replicas:
+                  type: integer
+                  description: The number of desired replicas.
+                  minimum: 1
+                  maximum: 10
+                paddingData:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      key:
+                        type: string
+                      value:
+                        type: string
+---
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
+metadata:
+  name: testresources13.example.com
+spec:
+  group: example.com
+  names:
+    plural: testresources13
+    singular: testresource13
+    kind: TestResource13
+    shortNames:
+    - tr13
+  scope: Namespaced
+  versions:
+    - name: v1
+      served: true
+      storage: true
+      schema:
+        openAPIV3Schema:
+          type: object
+          properties:
+            spec:
+              type: object
+              properties:
+                message:
+                  type: string
+                  description: A message for testing purposes.
+                replicas:
+                  type: integer
+                  description: The number of desired replicas.
+                  minimum: 1
+                  maximum: 10
+                paddingData:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      key:
+                        type: string
+                      value:
+                        type: string
+---
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
+metadata:
+  name: testresources14.example.com
+spec:
+  group: example.com
+  names:
+    plural: testresources14
+    singular: testresource14
+    kind: TestResource14
+    shortNames:
+    - tr14
+  scope: Namespaced
+  versions:
+    - name: v1
+      served: true
+      storage: true
+      schema:
+        openAPIV3Schema:
+          type: object
+          properties:
+            spec:
+              type: object
+              properties:
+                message:
+                  type: string
+                  description: A message for testing purposes.
+                replicas:
+                  type: integer
+                  description: The number of desired replicas.
+                  minimum: 1
+                  maximum: 10
+                paddingData:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      key:
+                        type: string
+                      value:
+                        type: string
+---
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
+metadata:
+  name: testresources15.example.com
+spec:
+  group: example.com
+  names:
+    plural: testresources15
+    singular: testresource15
+    kind: TestResource15
+    shortNames:
+    - tr15
+  scope: Namespaced
+  versions:
+    - name: v1
+      served: true
+      storage: true
+      schema:
+        openAPIV3Schema:
+          type: object
+          properties:
+            spec:
+              type: object
+              properties:
+                message:
+                  type: string
+                  description: A message for testing purposes.
+                replicas:
+                  type: integer
+                  description: The number of desired replicas.
+                  minimum: 1
+                  maximum: 10
+                paddingData:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      key:
+                        type: string
+                      value:
+                        type: string
