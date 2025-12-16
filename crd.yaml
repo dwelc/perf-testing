@@ -133,7 +133,7 @@ spec:
   names:
     plural: testresources4
     singular: testresource4
-    kind: TestResource2
+    kind: TestResource4
     shortNames:
     - tr4
   scope: Namespaced
